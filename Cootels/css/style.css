@@ -1,0 +1,976 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@600;700&display=swap');
+
+
+:root {
+    --container-width: 1230px;
+    --container-padding: 15px;
+    --color-btn: #0E1734;;
+    --color-title: #192252;
+    --title-pading:  0 0 24px 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #848FAC;
+}
+
+.none {
+    display: none !important;
+}
+
+a {
+    color: #192252;
+}
+
+.container {
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+.Benefit-container {
+    max-width: 1100px;
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+    padding-right: 100px;
+}
+.Testimoni-container {
+    max-width: 793.06px;
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    column-gap: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nav-GetStarted {
+    display: flex;
+    column-gap: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+
+
+}
+.nav-toggle {
+    display: none;
+}
+    /* Logo */
+    .logo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px ;
+        line-height: 39px;
+    
+        color: var(--color-title);
+    }
+    
+    .logo a {
+        color: inherit !important;
+    
+    }
+/* Button */
+
+.btn {
+    display: inline-block;
+    padding: 16px 32px;
+
+    background: #0E1734;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+.btn-nav {
+    padding: 14px 16px;
+}
+
+.header-top {
+    padding: 14px 16px;
+}
+.header-row {
+    display: flex;
+}
+.header-content {
+    padding-top: 215px;
+    max-width: 587px;
+}
+.header-title {
+    padding-bottom: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+
+    letter-spacing: -0.01em;
+
+    color: var(--color-title);
+}
+.header-text {
+    padding-bottom: 32px;
+
+    max-width: 554.96px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+.header-img {
+    display: flex;
+    padding-right: 24px;
+    padding-top: 80px;
+    max-width: 588px;
+    max-height: 588px;
+}
+.header-img img {
+    padding-left: 24px;
+    max-width: 180px;
+    max-height: 588px;
+}
+
+.header-img2 {
+    padding-top: 81px;
+}
+
+/* AboutUs */
+
+.AboutUs-row {
+    padding: 80px 0;
+    display: flex;
+}
+.AboutUs-img {
+    padding: 80px 126px 0 0;
+}
+.AboutUs-img img {
+    width: 384px;
+    height: 576px;
+    padding-right: 126px;
+}
+.AboutUs-content {
+    padding-top: 185px;
+}
+.AboutUs-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+
+    letter-spacing: -0.01em;
+
+    color: var(--color-title);
+    padding: var(--title-pading);
+}
+.AboutUs-textFirst {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 16px;
+}
+.AboutUs-textSecond {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    
+    padding-bottom: 32px;
+
+
+}
+
+/* Benefit */
+
+.Benefit {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.Benefit-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.Benefit-content {
+    padding-top: 113px;
+}
+.Benefit-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+
+    letter-spacing: -0.01em;
+    color: var(--color-title);
+    padding: var(--title-pading);
+}
+.Benefit-text {
+    max-width: 584px;
+    max-height: 81px;
+}
+.Benefit-img {
+    width: 384px;
+    height: 384px;
+}
+.Benefit-CabinActivities {
+    padding-left: 126px;
+
+}
+.Benefit-OrganicFood {
+    padding-right: 126px;
+
+}
+
+
+/* Reservation */
+
+.Reservastion {
+
+}
+.Reservastion-top {
+    max-width: 588px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 88px 0;
+}
+.Reservastion-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: var(--color-title);
+    padding-bottom: 24px;
+}
+.Reservastion-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 32px;
+
+    text-align: center;
+}
+.Reservastion-top a {
+    
+}
+.Reservastion-row {
+    display: flex;
+   
+}
+.Reservastion-card {
+    max-width: 394px;
+}
+.card-img {
+    padding-bottom: 32px;
+}
+.Card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    
+    
+    color: #000000;
+
+    padding-bottom: 16px;
+}
+.card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+    padding-bottom: 32px;
+}
+
+.card-blockBtn {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+
+    color: #424F7B;
+}
+.card-blockBtn img {
+    padding-left: 12px;
+}
+
+/* Room */
+.Room {
+    padding: 80px 0;
+}
+.Room-row {
+    display: flex;
+}
+.Room-content {
+    padding: 162px 207px 0 0;
+}
+.Room-badge {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #424F7B;
+    padding-bottom: 12px;
+}
+.Room-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    padding-bottom: 24px;
+    
+    
+    color: var(--color-title);
+}
+.Room-text {
+    padding-bottom: 32px;
+    max-width: 384px;
+    max-height: 81px;
+
+}
+.btn-box {
+
+}
+
+.btn-light {
+    
+    padding-left: 24px;
+}
+
+
+
+/* Accordio */
+
+.Room-accordion {
+    padding-top: 80px;
+    max-width: 588px;
+    max-height: 436px;
+
+}
+.accordion {
+    background-color: #fff;
+    color: #424F7B;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+    margin-bottom: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  
+.accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '';
+    color: #424F7B;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url(./../img/Room/Arrow-button.svg);
+  }
+  
+  .active:after {
+    content: "";
+    background-image: url(./../img/Room/Arrow-top.svg);
+    width: 40px;
+    height: 40px;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 24px;
+  }
+
+
+/* Testimoni */
+
+.Testimoni {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Testimoni-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: var(--color-title);
+    padding-bottom: 62px;
+    
+}
+.slider {
+
+}
+.swiper {
+}
+.mySwiper {
+}
+.swiper-wrapper {
+    padding-bottom: 44px;
+}
+.swiper-slide {
+}
+.Testimoni-avatar {
+    padding-bottom: 44px;
+}
+.Testimoni-text {
+    padding-bottom: 40px;
+}
+.Testimoni-nickname {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    text-align: center;
+    color: var(--color-title);
+}
+.swiper-pagination {
+}
+.swiper-pagination-bullet-active {
+    background: #FAB047;
+    width: 12px;
+    height: 12px;
+}
+.swiper-pagination-bullet {
+    background: #FAB047;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #0B265A;
+}
+.footer-row {
+    display: flex;
+    padding: 120px 0 100px;
+}
+.footer-columnFirst {
+    max-width: 186px;
+    padding-right: 400px;
+}
+.footer-logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+
+    padding-bottom: 13px;
+}
+.footer-text {
+
+
+    padding-bottom: 36px;
+}
+.footer-boxSocial img {
+    padding-right: 24px;
+}
+.footer-columnSecond {
+    padding-right: 100px;
+}
+.footer-columnthree {
+    padding-right: 141px;
+}
+
+.footer-whiteText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.footer h3 {
+    padding-bottom: 24px;
+}
+/* Menu Icon */
+
+.menu-icon-wrapper {
+	--time: 0.1s;
+	--width: 35px;
+	--height: 25px;
+	--line-height: 4.5px;
+	--color: #192252;
+
+	height: var(--height);
+	width: var(--width);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-icon {
+	position: relative;
+	width: var(--width);
+	height: var(--line-height);
+	background-color: var(--color);
+}
+
+.menu-icon::before,
+.menu-icon::after {
+	content: '';
+	display: block;
+
+	position: absolute;
+	left: 0;
+
+	width: var(--width);
+	height: var(--line-height);
+
+	background-color: var(--color);
+	transition: transform var(--time) ease-in, top var(--time) linear var(--time);
+}
+
+.menu-icon::before {
+	top: calc(var(--line-height) * -2);
+}
+
+.menu-icon::after {
+	top: calc(var(--line-height) * 2);
+}
+
+.menu-icon.menu-icon-active {
+	background-color: transparent;
+}
+
+.menu-icon.menu-icon-active::before,
+.menu-icon.menu-icon-active::after {
+	top: 0;
+	transition: top var(--time) linear, transform var(--time) ease-in var(--time);
+}
+
+.menu-icon.menu-icon-active::before {
+	transform: rotate(45deg);
+}
+
+.menu-icon.menu-icon-active::after {
+	transform: rotate(-45deg);
+}
+
+
+
+@media (max-width: 1200px) {
+    /* Header */
+    .header-img img {
+        padding-left: 24px;
+        max-width: 140px;
+        max-height: 588px;
+    }
+    .header-title {
+        padding-bottom: 20px;
+        font-size: 35px;
+    }
+    .header-text {
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+    /* AboutUs */
+    .AboutUs-img img {
+        width: 384px;
+    }
+    .AboutUs-title {
+        font-size: 30px;
+    }
+    .AboutUs-textFirst {
+        font-size: 16px;
+        padding-bottom: 14px;
+    }
+    /* Reservastion */
+    .Reservastion-row {
+        flex-wrap: wrap;
+        max-width: 830px;
+        justify-content: space-evenly;
+    }
+    .Reservastion-card {
+        padding: 20px 5px;
+        justify-content: center;
+        max-width: 350px;
+
+    }
+    /* Room */
+    .accordion {
+        padding: 12px;
+        font-size: 15px;
+        margin-bottom: 14px;
+        font-size: 20px;
+    }
+    .Room-title {
+        font-size: 25px;
+    }
+    .Room-text {
+        max-width: none;
+    }
+    .Room-content {
+        padding-left: 25px;
+    }
+    .Room-accordion {
+        padding-top: 120px; 
+    }
+
+}
+@media (max-width: 855px) {
+    /* Navbar */
+    .nav-list {
+        display: none;
+    }
+    
+    .nav-GetStarted{
+        display: none;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+    
+    .no-scroll {
+        overflow-y: hidden;
+    }
+    
+    .nav-mobile {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(62deg, #192252 -17.38%, #ffffff 78.4%), #ffffff;
+    }
+    
+    
+    .nav-mobile .logo{
+        font-size: 34px;
+    }
+    
+    .nav-mobile .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+        font-size: 22px;
+    }
+    
+    .nav-mobile .nav-list a.active::after,
+    .nav-mobile .nav-list a:hover::after {
+        display: none;
+    }
+    
+    
+    .nav-mobile .nav-GetStarted {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+        font-size: 22px;
+    }
+    
+    .nav-mobile .nav-toggle {
+        position: fixed;
+        top: 50px;
+        right: 50px;
+    
+    }
+    .nav-toggle {
+        display: block;
+    }
+        /* Button */
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+
+        background: #0E1734;
+        border-radius: 4px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+    }
+    .btn:active {
+        position: relative;
+        top: 1px;
+    }
+    /* Header */
+    .header-title {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .header-img img {
+        padding-left: 20px;
+        max-width: 120px;
+        max-height: 588px;
+    }
+    /* AboutUs */
+    .AboutUs-img img {
+        width: 340px;
+        height: 400px;
+        padding-right: 0px;
+    }
+    .AboutUs-title {
+        font-size: 25px;
+    }
+    .AboutUs-textFirst {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+    .AboutUs-textSecond {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+    /* Benefit */
+    .Benefit-title {
+        font-size: 30px;
+    }
+    .Benefit-text {
+        font-size: 14px;
+    }
+    /* Room */
+    .Room-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Room-content {
+        padding: 162px 207px 0 0;
+        max-width: 407px;
+        justify-content: center;
+    }
+    .Room-content {
+        padding: 162px 0 0 0;
+    }
+    /* Testimoni */
+    .Testimoni-container {
+        max-width: 700px;
+    }
+    /* Footer */
+    .footer h3 {
+        font-size: 14px;
+    }
+    .footer-row {
+        display: flex;
+        flex-direction: column
+    }
+    .footer-columnFirst {
+        max-width: 200px;
+        padding-right: 40px;
+    }
+    .footer-logo {
+        font-size: 32px;
+        padding-bottom: 13px;
+    }
+    .footer-text {
+        font-size: 12px;
+        padding-bottom: 36px;
+    }
+    .footer-boxSocial img {
+        padding: 10px 24px 15px 0;
+    }
+    .footer-columnSecond {
+        padding-right: 50px;
+    }
+    .footer-columnthree {
+        padding-right: 70px;
+    }
+    
+    .footer-whiteText {
+        font-size: 14px;
+    }
+    
+    .footer h3 {
+        padding-bottom: 24px;
+    }
+
+}
+@media (max-width: 752px) {
+    /* Header */
+    .header-img img {
+        max-width: 100px;
+        
+    }
+    .header-row  {
+        flex-direction: column;
+        padding-bottom: 400px;
+        position: relative;
+        align-items: center;
+    }      
+    .header-content {
+        padding-top: 600px;
+        max-width: 587px;
+        position: absolute;
+    }
+    /* Button */
+    .btn {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+    /* AboutUs */
+    .AboutUs-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .AboutUs-img {
+        width: 384px;
+        height: 576px;
+        align-items: center;
+        padding: 0;
+    }
+    .AboutUs-img img {
+        height: auto;
+    }
+    .AboutUs-content {
+        padding-top: 40px;
+    }
+    /* Benefit */
+    .Benefit-row {
+        flex-direction: column;
+    }
+    .Benefit {
+        padding: 0;
+    }
+    .Benefit-content-adaptive {
+        position: absolute;
+        padding-top: 450px;
+    }
+    .Benefit-CabinActivities {
+        padding-bottom: 250px;
+        position: relative;
+        padding-left: 0;
+        
+    }
+    .Benefit-img  {
+        max-width: 100%;
+        border-radius: 40%;
+    }
+    /* Testimoni */
+    .Testimoni-container {
+        align-items: center;
+    }
+    .slider .mySwiper{
+        max-width: 500px;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 400px) {
+    /* Benefit */
+    .Benefit-content {
+        padding-top: 40px;
+       }
+    .Benefit-content-adaptive {
+    padding-top: 250px;
+    }
+    .Benefit-img {
+        width: 384px;
+        height: auto;
+    }
+    /* Slider */
+    .slider .mySwiper{
+        max-width: 250px;
+        align-items: center;
+    }
+    /* Footer */
+    .footer-row {
+        display: flex;
+        padding: 80px 0 20px 10px;
+    }
+    /* Button */
+    .btn-box {
+        flex-wrap: wrap;
+    }
+}
+/* My GitHub https://github.com/IvanGostev */
